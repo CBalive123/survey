@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -100,7 +100,7 @@
 <div id="container">
     <h1>问卷提交完成！</h1>
     <div id="body">
-        <p style="color: blue; font-size: 16px">谢谢您的配合。祝您中奖，中奖情况稍后短信通知。</p>
+        <p style="color: blue; font-size: 16px">谢谢您的配合。祝您中奖~</p>
     </div>
 
 </div>

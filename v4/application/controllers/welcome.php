@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 	#add
@@ -103,9 +103,9 @@ class Welcome extends CI_Controller {
             ->set_error('month_cost', '问题7必填。')
             ->space(TRUE)
 
-            ->label('8. 请问您的手机号是多少？(抽奖用)')
+            ->label('8. 请问您的学号是多少？(抽奖用)')
             ->br()
-            ->text('phone_num', '', 'required|max_length[11]')
+            ->text('phone_num', '', 'required|max_length[10]')
             ->set_error('phone_num', '问题8必填。')
             ->space(TRUE)
 

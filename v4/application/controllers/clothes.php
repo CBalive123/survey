@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Clothes extends CI_Controller {
 	#add
@@ -40,7 +40,7 @@ class Clothes extends CI_Controller {
             ->radiogroup('p_2', $radios_sense, '', $default_ratio, 'required')
             ->set_error('p_2', '问题2必填。')
             ->space(TRUE)
-            ->label('3. 用户评论显示该商家会做到其所承诺的')
+            ->label('3. 用户评论显示该商家是可以相信的')
             ->br()
             ->radiogroup('p_3', $radios_sense, '', $default_ratio, 'required')
             ->set_error('p_3', '问题3必填。')
@@ -115,7 +115,7 @@ class Clothes extends CI_Controller {
             ->radiogroup('p_17', $radios_sense, '', $default_ratio, 'required')
             ->set_error('p_17', '问题17必填。')
             ->space(TRUE)
-            ->label('18. 用户评论显示该商家提供的产品或服务是顾客想要的')
+            ->label('18. 用户评论显示该商家提供的产品是顾客想要的')
             ->br()
             ->radiogroup('p_18', $radios_sense, '', $default_ratio, 'required')
             ->set_error('p_18', '问题18必填。')
@@ -165,7 +165,7 @@ class Clothes extends CI_Controller {
             ->radiogroup('p_27', $radios_sense, '', $default_ratio, 'required')
             ->set_error('p_27', '问题27必填。')
             ->space(TRUE)
-            ->label('28. 用户评论显示该商家提供了与其描述相一致的产品/服务')
+            ->label('28. 用户评论显示该商家提供了与其承诺相一致的产品/服务')
             ->br()
             ->radiogroup('p_28', $radios_sense, '', $default_ratio, 'required')
             ->set_error('p_28', '问题28必填。')
@@ -190,7 +190,7 @@ class Clothes extends CI_Controller {
             ->radiogroup('p_32', $radios_sense, '', $default_ratio, 'required')
             ->set_error('p_32', '问题32必填。')
             ->space(TRUE)
-            ->label('33. 网页中的评论显示该商家提供的产品或服务是优秀的')
+            ->label('33. 网页中的评论显示该商家提供的产品或服务是做工精细的')
             ->br()
             ->radiogroup('p_33', $radios_sense, '', $default_ratio, 'required')
             ->set_error('p_33', '问题33必填。')

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -104,10 +104,10 @@
 	<h1>尊敬的同学：</h1>
 
 	<div id="body">
-		<p style="font-size:16px; color: blue;font-weight: bold;">您好，本次问卷调查是两个月前的跟踪调查，仅耽误您几分钟的时间。此外您所填写的手机号仅是为了实验研究及随后的小礼品赠送，绝不会泄露您的隐私，请您放心！</p>
+		<p style="font-size:16px; color: blue;font-weight: bold;">您好，本次问卷调查是上一次调查后的后续调查，仅耽误您几分钟的时间。此外您所填写的手机号仅是为了实验研究及随后的小礼品赠送，绝不会泄露您的隐私，请您放心！</p>
 
         <p style="font-size:16px; color: blue;font-weight: bold;">谢谢！</p>
-		<p style="font-size:16px; color: blue;font-weight: bold;">黄冰俏</p>
+		<p style="font-size:16px; color: blue;font-weight: bold;">王凤亭</p>
 	</div>
 		
 	<div id="wrapper">

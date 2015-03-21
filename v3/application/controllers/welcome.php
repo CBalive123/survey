@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
 	#add
@@ -22,8 +22,8 @@ class Welcome extends CI_Controller {
 
 		// if the form is submitted to the same url this can be omitted
 		//->open('welcome')
-            ->label('1. 请输入您上次填写的手机号：')
-            ->text('phone_num', '', 'required|max_length[11]')
+            ->label('1. 请输入您上次填写的学号：')
+            ->text('phone_num', '', 'required|max_length[10]')
             ->set_error('phone_num', '问题1必填。')
             ->space(TRUE)
 
